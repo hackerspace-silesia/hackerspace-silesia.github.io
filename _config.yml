@@ -1,0 +1,3 @@
+name: Hackerspace Silesia
+pygments: true
+exclude: ["README.md"]
