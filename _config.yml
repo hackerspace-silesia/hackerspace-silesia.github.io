@@ -1,3 +1,13 @@
 name: Hackerspace Silesia
 pygments: true
-exclude: ["README.md", "CNAME"]
+exclude: [
+  'README.md', 'CNAME',
+  'Gemfile', 'Gemfile.lock',
+  'Guardfile'
+]
+asset_pipeline:
+  bundle: true
+  compress: true
+  output_path: assets
+  display_path: nil
+  gzip: false
