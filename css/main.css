@@ -20,7 +20,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: 'Pontano Sans';
     font-weight: 300;
     color: #333;
 }
@@ -327,7 +327,7 @@ a:after {
 }
 
 .menu h1.logo a {
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-family: 'Pontano Sans', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 800;
 	letter-spacing: 0.15em;

@@ -5,6 +5,7 @@ gem 'jekyll-asset-pipeline'
 gem 'coffee-script'
 gem 'sass'
 gem 'yui-compressor'
+gem 'jekyll-multiple-languages-plugin'
 
 group :development do
   gem 'guard'
