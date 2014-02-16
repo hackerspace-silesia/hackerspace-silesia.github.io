@@ -49,11 +49,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <a href="/#about" class="smoothScroll">O nas / About us</a> ·
-                    <a href="/#place" class="smoothScroll">Miejsce / Place</a> ·
-                    <a href="/#projects" class="smoothScroll">Społeczności / Communities</a> ·
-                    <a href="/#calendar" class="smoothScroll">Kalendarz / Calendar</a> ·
-                    <a href="#contact" class="smoothScroll">Kontakt / Contact</a>
+                    <a href="/#about" class="smoothScroll">{% t menu.about %}</a> ·
+                    <a href="/#place" class="smoothScroll">{% t menu.place %}</a> ·
+                    <a href="/#projects" class="smoothScroll">{% t menu.community %}</a> ·
+                    <a href="/#calendar" class="smoothScroll">{% t menu.calendar %}</a> ·
+                    <a href="#contact" class="smoothScroll">{% t menu.contact %}</a> ·
+                    {% if site.lang == "pl" %}
+                    <a href="/en">English</a>
+                    {% else %}
+                    <a href="/">Polski</a>
+                    {% endif %}
                 </div>
             </div>
         </div>
