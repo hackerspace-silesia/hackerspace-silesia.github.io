@@ -1,4 +1,4 @@
-require 'version.rb'
+#require 'version.rb'
 
 module Jekyll
   class Site
