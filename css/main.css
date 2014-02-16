@@ -162,18 +162,16 @@ a:after {
 	background: #ffffff;
 	padding-top: 25px;
 	padding-bottom: 25px;
-
 	letter-spacing: 1px;
 	font-size: 1.2em;
-}
-
-.w h3 {
     text-align: center;
 }
+
 
 .w a {
 	padding: 0 10px;
 	font-weight: bold;
+    text-align: left;
 }
 
 
