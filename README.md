@@ -4,9 +4,16 @@ To run it locally you will need Ruby.
 Install it using https://rvm.io/ or https://github.com/sstephenson/rbenv or just use your system one.
 
 ```
-gem install jekyll
+bundle install
 jekyll serve --watch
 ```
+
+After bundle you can run Guard in separated console:
+```
+guard
+```
+
+Use LiveReload plugin (Chrome, Firefox) and you can forget about reloading the page.
 
 That's it.
 

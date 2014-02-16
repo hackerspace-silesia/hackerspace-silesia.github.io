@@ -1,37 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hackerspace Silesia</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
     <![endif]-->
-    <title>{{ page.title }}</title>
   </head>
 
-  <body>
-    <div id="container">
-      <div class="inner">
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
 
-        <header>
-          <h1>Hackerspace Silesia</h1>
-          <h2>Some wise sentence here</h2>
-        </header>
+    <!-- RIGHT MENU -->
+    <nav class="menu" id="theMenu">
+        <div class="menu-wrap">
+            <h1 class="logo"><a href="index.html#home">HS</a></h1>
+            <i class="icon-remove menu-close"></i>
+            <a href="#home" class="smoothScroll">Home</a>
+            <a href="#about" class="smoothScroll">O Nas</a>
+            <a href="#place" class="smoothScroll">Miejsce</a>
+            <a href="#projects" class="smoothScroll">Społeczności</a>
+            <a href="#calendar" class="smoothScroll">Kalendarz</a>
+            <a href="#facebook" class="smoothScroll">Facebook</a>
+            <a href="#contact" class="smoothScroll">Kontakt</a>
+            <a href="https://www.facebook.com/HackerspaceSilesia"><i class="icon-facebook"></i></a>
+            <a href="https://twitter.com/hs_silesia"><i class="icon-twitter"></i></a>
+            <a href="https://lists.hackerspace.pl/mailman/listinfo/silesia"><i class="icon-envelope"></i></a>
+        </div>
+        <div id="menuToggle"><i class="icon-reorder"></i></div>
+    </nav>
 
-        <hr>
-
-        <section id="main_content">
-          {{ content }}
-        </section>
-
-        <footer>
-          Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-      </div>
+    <!-- LOGO -->
+    <section id="home"></section>
+    <div id="headerwrap">
+        <div class="container">
+            <img src="/img/logo.png" alt="Logo" />
+        </div>
     </div>
+
+    <!-- MENU -->
+    <div class="w">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <a href="#about" class="smoothScroll">O nas</a> ·
+                    <a href="#place" class="smoothScroll">Miejsce</a> ·
+                    <a href="#projects" class="smoothScroll">Społeczności</a> ·
+                    <a href="#calendar" class="smoothScroll">Kalendarz</a> ·
+                    <a href="#facebook" class="smoothScroll">Facebook</a> ·
+                    <a href="#contact" class="smoothScroll">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{ content }}
+
+
+    <!-- CONTACT -->
+    <section id="contact"></section>
+    <div id="f">
+        <div class="container">
+            <div class="row">
+                <h3><b>KONTAKT</b></h3>
+                <br>
+                <div class="col-lg-4">
+                    <h3><b>mailing list</b></h3>
+                    <h3><a href="https://lists.hackerspace.pl/pipermail/silesia/">archive</a></h3>
+                    <h3><a href="https://lists.hackerspace.pl/mailman/listinfo/silesia">subscribe us</a></h3>
+                    <br>
+                </div>
+                <div class="col-lg-4">
+                    <h3><b>IRC</b></h3>
+                    <h3><a href="http://webchat.freenode.net/?channels=#hackerspace-silesia">#hackerspace-silesia</a></h3>
+                    <h3><a href="https://botbot.me/freenode/hackerspace-silesia/">channel logs</a></h3>
+                    <br>
+                </div>
+                <div class="col-lg-4">
+                    <h3><b>GitHub</b></h3>
+                    <h3><a href="https://github.com/hackerspace-silesia/">github.com/hackerspace-silesia</a></h3>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        <a href="https://www.facebook.com/HackerspaceSilesia"><i class="icon-facebook"></i></a>
+                        <a href="https://twitter.com/hs_silesia"><i class="icon-twitter"></i></a>
+                        <a href="mailto:silesia@lists.hackerspace.pl"><i class="icon-envelope"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="c">
+        <div class="container">
+            <p>Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
+        </div>
+    </div>
+
+    <script src="js/classie.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
