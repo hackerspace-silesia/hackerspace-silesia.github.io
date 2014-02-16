@@ -51,7 +51,6 @@ GEM
     jekyll-asset-pipeline (0.1.2)
       jekyll (>= 0.10.0)
       liquid (>= 1.9.0)
-    libv8 (3.16.14.3)
     liquid (2.5.5)
     listen (1.3.1)
       rb-fsevent (>= 0.9.3)
@@ -76,13 +75,9 @@ GEM
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
     redcarpet (2.3.0)
-    ref (1.0.5)
     safe_yaml (0.9.7)
     sass (3.2.13)
     slop (3.4.7)
-    therubyracer (0.12.0)
-      libv8 (~> 3.16.14.0)
-      ref
     thor (0.18.1)
     toml (0.1.0)
       parslet (~> 1.5.0)
@@ -103,5 +98,4 @@ DEPENDENCIES
   jekyll
   jekyll-asset-pipeline
   sass
-  therubyracer
   yui-compressor
