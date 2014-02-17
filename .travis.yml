@@ -1,4 +1,7 @@
 language: ruby
+env:
+  global:
+    - secure: "SAQK6BwFHP1fdBdGQWUP5Y34USuWqEh9k3i3N3F4ZPyrDHj0oXsq9Mw0RKwFmazKexzbd8P0YGiaXnxlfMhYWNRMVsZLWFViqjXnmzZyZa8fkcwWxIimcUPeYNaDMb0Q684r6+rpNNy8OyZtsPZR26jvg4vWL6KnLDfSOgmJnU0="
 rvm:
   - 2.1.0
 script: bundle exec jekyll build
