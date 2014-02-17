@@ -1,7 +1,7 @@
 language: ruby
 env:
   global:
-    - secure: "SAQK6BwFHP1fdBdGQWUP5Y34USuWqEh9k3i3N3F4ZPyrDHj0oXsq9Mw0RKwFmazKexzbd8P0YGiaXnxlfMhYWNRMVsZLWFViqjXnmzZyZa8fkcwWxIimcUPeYNaDMb0Q684r6+rpNNy8OyZtsPZR26jvg4vWL6KnLDfSOgmJnU0="
+    - secure: "To68tydfRPn6sSudWRa8uh6IHeT0FA3oO2DTLtNbdgo1eAM7k835fC72DIfffgPcweQZZTTn52XMidiUKqrIGWv6hJ/g6ETdzTx1yhpIbIE/S2OoOEyRFk/m1TxyxMHtlunN60NK0RAx7iccYDnLfPhNe3Ea8GKEKuqNszOd9dQ="
 rvm:
   - 2.1.0
 script: bundle exec jekyll build
@@ -20,7 +20,7 @@ after_success:
   - git config --global user.name "$GIT_NAME"
   - git config --global user.email "$GIT_EMAIL"
   - git commit -m 'New site version' 
-  - git remote set-url origin https://$GH_TOKEN@github.com/hackerspace-silesia/hackerspace-silesia.github.io.git
+  - git config credential.https://github.com.username "$GH_TOKEN"
   - git push origin master
 notifications:
   irc:
