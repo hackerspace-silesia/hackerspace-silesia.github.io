@@ -5,6 +5,19 @@ env:
 rvm:
   - 2.1.0
 script: bundle exec jekyll build
+branches:
+  only:
+    - jekyll
+after_success:
+  - git checkout master
+  - rsync -avzh _site/ ./
+  - git add .
+  - git config --global user.name "$GIT_NAME"
+  - git config --global user.email "$GIT_EMAIL"
+  - git config --global github.token "$GH_TOKEN"
+  - git commit -m 'New site version' 
+  - git remote set-url origin git@github.com:hackerspace-silesia/hackerspace-silesia.github.io.git
+  - git push origin master
 notifications:
   irc:
     on_success: change
