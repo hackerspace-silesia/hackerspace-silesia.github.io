@@ -3,7 +3,7 @@ pygments: true
 exclude: [
   'README.md', 'CNAME',
   'Gemfile', 'Gemfile.lock',
-  'Guardfile'
+  'Guardfile', 'vendor'
 ]
 asset_pipeline:
   bundle: true
