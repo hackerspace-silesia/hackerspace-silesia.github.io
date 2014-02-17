@@ -1,0 +1,1 @@
+We are not yet full-blown 24/7 hackerspace, so for now we gather on every Thursday in **Katowice, Ligonia 7/112**, which is south of the main railway station in Katowice. That place is available thanks to the great hospitality of <a href="http://www.bs.katowice.pl/">Silesian Library</a>.

@@ -23,12 +23,12 @@
         <div class="menu-wrap">
             <h1 class="logo"><a href="/#home">HS</a></h1>
             <i class="icon-remove menu-close"></i>
-            <a href="/#home" class="smoothScroll">Home</a>
-            <a href="/#about" class="smoothScroll">O Nas / About us</a>
-            <a href="/#place" class="smoothScroll">Miejsce / Place</a>
-            <a href="/#projects" class="smoothScroll">Społeczności / Communities</a>
-            <a href="/#calendar" class="smoothScroll">Kalendarz / Calendar</a>
-            <a href="#contact" class="smoothScroll">Kontakt / Contact</a>
+            <a href="#home" class="smoothScroll">Home</a>
+            <a href="#about" class="smoothScroll">{% translate menu.about %}</a>
+            <a href="#place" class="smoothScroll">{%  translate  menu.place %}</a>
+            <a href="#projects" class="smoothScroll">{%  translate  menu.community %}</a>
+            <a href="#calendar" class="smoothScroll">{%  translate  menu.calendar %}</a>
+            <a href="#contact" class="smoothScroll">{%  translate  menu.contact %}</a>
             <a href="https://www.facebook.com/HackerspaceSilesia"><i class="icon-facebook"></i></a>
             <a href="https://twitter.com/hs_silesia"><i class="icon-twitter"></i></a>
             <a href="https://lists.hackerspace.pl/mailman/listinfo/silesia"><i class="icon-envelope"></i></a>
@@ -49,10 +49,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <a href="/#about" class="smoothScroll">{% translate menu.about %}</a> ·
-                    <a href="/#place" class="smoothScroll">{%  translate  menu.place %}</a> ·
-                    <a href="/#projects" class="smoothScroll">{%  translate  menu.community %}</a> ·
-                    <a href="/#calendar" class="smoothScroll">{%  translate  menu.calendar %}</a> ·
+                    <a href="#about" class="smoothScroll">{% translate menu.about %}</a> ·
+                    <a href="#place" class="smoothScroll">{%  translate  menu.place %}</a> ·
+                    <a href="#projects" class="smoothScroll">{%  translate  menu.community %}</a> ·
+                    <a href="#calendar" class="smoothScroll">{%  translate  menu.calendar %}</a> ·
                     <a href="#contact" class="smoothScroll">{%  translate  menu.contact %}</a> ·
                     {% if site.lang == "pl" %}
                     <a href="/en">English</a>
@@ -75,15 +75,15 @@
                 <h3><b>{%  translate  menu.contact %}</b></h3>
                 <br>
                 <div class="col-lg-4">
-                    <h3><b>mailing list</b></h3>
-                    <h3><a href="https://lists.hackerspace.pl/pipermail/silesia/">archive</a></h3>
-                    <h3><a href="https://lists.hackerspace.pl/mailman/listinfo/silesia">subscribe us</a></h3>
+                    <h3><b>{% translate menu.maillist %}</b></h3>
+                    <h3><a href="https://lists.hackerspace.pl/pipermail/silesia/">{% translate menu.archive %}</a></h3>
+                    <h3><a href="https://lists.hackerspace.pl/mailman/listinfo/silesia">{% translate menu.subscribe %}</a></h3>
                     <br>
                 </div>
                 <div class="col-lg-4">
                     <h3><b>IRC</b></h3>
                     <h3><a href="http://webchat.freenode.net/?channels=#hackerspace-silesia">#hackerspace-silesia</a></h3>
-                    <h3><a href="https://botbot.me/freenode/hackerspace-silesia/">channel logs</a></h3>
+                    <h3><a href="https://botbot.me/freenode/hackerspace-silesia/">{% translate menu.irc_logs %}</a></h3>
                     <br>
                 </div>
                 <div class="col-lg-4">
