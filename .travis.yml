@@ -12,6 +12,7 @@ before_script:
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 after_success:
   - git fetch
+  - git show-ref
   - git checkout master
   - rsync -avzh _site/ ./
   - git add .
