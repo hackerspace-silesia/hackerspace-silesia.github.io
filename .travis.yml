@@ -13,7 +13,10 @@ before_script:
 after_success:
   - git fetch -v https://github.com/hackerspace-silesia/hackerspace-silesia.github.io.git --depth 1000
   - git show-ref
-  - git checkout master
+  - git branch -r
+  - git remote update
+  - git branch -r
+  - git checkout -b master remotes/origin/master
   - rsync -avzh _site/ ./
   - git add .
   - git config --global user.name "$GIT_NAME"
