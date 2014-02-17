@@ -11,15 +11,11 @@ branches:
 before_script:
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 after_success:
-  - git --version
-  - git fetch -v https://github.com/hackerspace-silesia/hackerspace-silesia.github.io.git --all
-  - git remote show origin
-  - git show-ref
-  - git branch -a
-  - git remote update
-  - git branch -r
-  - git checkout -b master remotes/origin/master
-  - rsync -avzh _site/ ./
+  - rm -rf _deploy
+  - mkdir _deploy
+  - cd deploy
+  - git clone https://github.com/hackerspace-silesia/hackerspace-silesia.github.io.git --branch=master .
+  - rsync -avzh ../_site/ ./
   - git add .
   - git config --global user.name "$GIT_NAME"
   - git config --global user.email "$GIT_EMAIL"
