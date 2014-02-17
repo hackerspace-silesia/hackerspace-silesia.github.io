@@ -7,6 +7,6 @@ notifications:
     on_success: change
     on_failure: change
     channels:
-    - irc.freenode.org#hackerspace-silesia
+    - irc.freenode.net#hackerspace-silesia
     template:
     - '%{repository}#%{build_number} (%{branch}) %{message} %{build_url}'
