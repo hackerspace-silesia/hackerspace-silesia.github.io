@@ -14,10 +14,9 @@ after_success:
   - git checkout master
   - rsync -avzh _site/ ./
   - git add .
-  - echo "$GIT_NAME $GIT_EMAIL"
   - git config --global user.name "$GIT_NAME"
   - git config --global user.email "$GIT_EMAIL"
-  - git config --global github.token "$GH_TOKEN"
+  - echo "https://$GH_TOKEN:@github.com" >.git/credentials
   - git commit -m 'New site version' 
   - git remote set-url origin https://github.com/hackerspace-silesia/hackerspace-silesia.github.io.git
   - git push origin master
