@@ -8,6 +8,8 @@ script: bundle exec jekyll build
 branches:
   only:
     - jekyll
+before_script:
+  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 after_success:
   - git checkout master
   - rsync -avzh _site/ ./
