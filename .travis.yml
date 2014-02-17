@@ -16,9 +16,8 @@ after_success:
   - git add .
   - git config --global user.name "$GIT_NAME"
   - git config --global user.email "$GIT_EMAIL"
-  - echo "https://$GH_TOKEN:@github.com" >.git/credentials
   - git commit -m 'New site version' 
-  - git remote set-url origin https://github.com/hackerspace-silesia/hackerspace-silesia.github.io.git
+  - git remote set-url origin https://$GH_TOKEN@github.com/hackerspace-silesia/hackerspace-silesia.github.io.git
   - git push origin master
 notifications:
   irc:
