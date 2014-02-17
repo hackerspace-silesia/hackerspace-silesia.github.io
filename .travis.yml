@@ -11,9 +11,9 @@ branches:
 before_script:
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 after_success:
-  - git fetch -v https://github.com/hackerspace-silesia/hackerspace-silesia.github.io.git --depth 1000
+  - git fetch -v https://github.com/hackerspace-silesia/hackerspace-silesia.github.io.git --all
   - git show-ref
-  - git branch -r
+  - git branch -a
   - git remote update
   - git branch -r
   - git checkout -b master remotes/origin/master
