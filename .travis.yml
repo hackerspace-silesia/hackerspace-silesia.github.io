@@ -20,7 +20,8 @@ after_success:
   - git config --global user.name "$GIT_NAME"
   - git config --global user.email "$GIT_EMAIL"
   - git commit -m 'New site version' 
-  - git config credential.https://github.com.username "$GH_TOKEN"
+  - git config credential.helper "store --file=.git/credentials"
+  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
   - git push origin master
 notifications:
   irc:
