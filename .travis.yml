@@ -19,7 +19,7 @@ after_success:
   - git add .
   - git config --global user.name "$GIT_NAME"
   - git config --global user.email "$GIT_EMAIL"
-  - git commit -m 'New site version' 
+  - git commit -m 'New site version. Committed by Travis-CI build number: $TRAVIS_JOB_ID'  
   - git config credential.helper "store --file=.git/credentials"
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
   - git push origin master
