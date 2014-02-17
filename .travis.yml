@@ -12,6 +12,7 @@ before_script:
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 after_success:
   - git fetch -v https://github.com/hackerspace-silesia/hackerspace-silesia.github.io.git --all
+  - git remote show origin
   - git show-ref
   - git branch -a
   - git remote update
