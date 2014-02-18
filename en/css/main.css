@@ -106,6 +106,7 @@ a:after {
     -o-background-size: cover;
     background-size: cover;
 	background-attachment: fixed;
+    margin-top: -70px;
 }
 
 #headerwrap h1 {
@@ -429,7 +430,7 @@ a:after {
 
 #menuToggle {
 	position: absolute;
-	top: 20px;
+	top: 45px;
 	left: 0;
 	z-index: 11;
 	display: block;
@@ -492,4 +493,19 @@ a:after {
 .team a {
 	padding-right: 10px;
 	padding-left: 10px;
+}
+
+#langselect {
+  background: white;
+  width: 300px;
+  top: 0px;
+  right: 0px;
+}
+
+#langselect a {
+  color: #00acec;
+  font-size: 10px;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 0 6px;
 }
