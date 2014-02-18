@@ -38,6 +38,13 @@
 
     <!-- LOGO -->
     <section id="home"></section>
+    <div class="navbar">
+            <div id="langselect" class="navbar-form pull-right">
+                    <a href="/">POLSKI</a>
+                    <a href="/en">ENGLISH</a>
+                    <a href="/fr">FRANÇAIS</a>
+            </div>
+    </div>
     <div id="headerwrap">
         <div class="container">
             <img src="/img/logo.png" alt="Logo" />
@@ -53,12 +60,7 @@
                     <a href="#place" class="smoothScroll">{%  translate  menu.place %}</a> ·
                     <a href="#projects" class="smoothScroll">{%  translate  menu.community %}</a> ·
                     <a href="#calendar" class="smoothScroll">{%  translate  menu.calendar %}</a> ·
-                    <a href="#contact" class="smoothScroll">{%  translate  menu.contact %}</a> ·
-                    {% if site.lang == "pl" %}
-                    <a href="/en">English</a>
-                    {% else %}
-                    <a href="/">Polski</a>
-                    {% endif %}
+                    <a href="#contact" class="smoothScroll">{%  translate  menu.contact %}</a>
                 </div>
             </div>
         </div>

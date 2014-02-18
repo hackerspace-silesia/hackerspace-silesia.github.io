@@ -11,4 +11,4 @@ asset_pipeline:
   output_path: assets
   display_path: nil
   gzip: false
-languages: ["pl", "en"]
+languages: ["pl", "en", "fr"]
