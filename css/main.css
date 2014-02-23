@@ -124,6 +124,10 @@ a:after {
 	letter-spacing: 2px;
 }
 
+#headerwrap .logo {
+	max-height: 200px;
+}
+
 /* Portfolio Wrap */
 #portfoliowrap {
 	background: url(../img/portfolio-bg.jpg) no-repeat center top;
