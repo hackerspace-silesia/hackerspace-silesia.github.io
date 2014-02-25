@@ -224,6 +224,10 @@ a:after {
 	color: white;
 }
 
+#f h2, #f h3, #f h4 {
+	color: white;
+}
+
 #f i {
 	font-size: 26px;
 	color: white;
