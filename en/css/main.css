@@ -220,11 +220,8 @@ a:after {
 	background: #2f2f2f;
 	padding-top: 70px;
 	padding-bottom: 70px;
-	text-align: center
-}
-
-#f h3 {
-	color: white;	
+	text-align: center;
+	color: white;
 }
 
 #f i {
@@ -232,6 +229,10 @@ a:after {
 	color: white;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+#f a {
+	color: #777;
 }
 
 /* Copyright Wrap */
