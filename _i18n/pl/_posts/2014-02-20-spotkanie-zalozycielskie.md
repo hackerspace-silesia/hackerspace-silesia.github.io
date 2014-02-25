@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [calendar, hackerspace]
+tags: [calendar, hackerspace]
 title: Spotkanie założycielskie
 ---
 
