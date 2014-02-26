@@ -18,10 +18,16 @@ title: Hackerspace Silesia
 
                 </div>
                 <div class="col-lg-6">
-                    <h3>Spotkanie założycielskie</h3>
+                    <h3>Aktualności</h3>
                     <img src="/img/s3.png" alt="Eiffel">
-                    <h4>Stowarzyszenie Hackerspace Silesia</h4>
-                    <p>Dnia 20.02.2014 odbędzie się spotkanie założycielskie Stowarzyszenia Hackerspace Silesia. Celem tego spotkania jest powstanie stowarzyszenia, które będzie starało się pozyskać lokal dla społeczności Hackerspace'a. Jeżeli ta sprawa jest dla Ciebie ważna to prosimy o przybycie i przeczytanie <a href="https://lists.hackerspace.pl/pipermail/silesia/2014-February/000202.html">tego emaila z mailisty</a> oraz wpisanie swojej obecności na <a href="http://pad.nowoczesnapolska.org.pl/p/hackerspace-silesia-stowarzyszenie">na padzie</a>.</p>
+                    <h4>Co nowego w HSie</h4>
+                    <ul>
+                    {% for post in site.tags['news'] reversed limit: 5 %}
+                            <li>
+                            <a href="{{ post.url }}"><small>{{ post.date | date_to_string }}</small> {{ post.title }}</a>
+                            </li>
+                    {% endfor %}
+                    </ul>
                 </div>
             </div>
         </div>
