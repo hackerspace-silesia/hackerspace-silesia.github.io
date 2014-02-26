@@ -25,4 +25,4 @@ Taki oto zarząd został wybrany:
 * Adam Śliwa - członek komisji
 
 Czy stowarzyszenie powstanie zależy od sądu, który sprawdzi wszystkie dokumenty. Sąd ma 3 miesiące na podjęcie decyzji. 
-
+Dla zainteresowanych statu stowarzyszenia dostępny jest na <a href="https://github.com/hackerspace-silesia/statut">githubie</a>.
