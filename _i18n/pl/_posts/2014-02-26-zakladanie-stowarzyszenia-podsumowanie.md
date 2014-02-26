@@ -4,9 +4,12 @@ tags: [news, hackerspace]
 title: Spotkanie założycielskie - podsumowanie
 ---
 
-Dnia 20.02.2014 odbyło się spotkanie założycielskie Stowarzyszenia Hackerspace Silesia. Celem tego spotkania było założenie stowarzyszenia, które będzie starało się pozyskać lokal dla społeczności Hackerspace'a.
+<img style="float: left; margin: 0px 15px 15px 0px;" width="50%" src="/img/posts/creating_hs.png">
+Dnia 20.02.2014 odbyło się spotkanie założycielskie Stowarzyszenia Hackerspace Silesia. Celem tego spotkania było założenie stowarzyszenia, które będzie starało się pozyskać lokal dla społeczności Hackerspacea.
 
 W spotkaniu wzięły udział 24 osoby i wszystko przebiegło bardzo sprawnie. Po wielu głosowaniach, wypełnieniu dzięsiatek dokumentów i wydrukowaniu blisko setki kartek wszystkie formalności zostały dopełnione. 25 lutego wymagane dokumenty zostały złożone w sądzie rejonowym w Katowicach.
+
+<p style="clear:both"></p>
 
 Taki oto zarząd został wybrany:
 
