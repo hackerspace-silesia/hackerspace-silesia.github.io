@@ -8,4 +8,4 @@ Niestety nie udało się złożyć wniosku na "Lokal na kulturę". Mamy jednak n
 
 Najpierw jednak poczekajmy, aż sąd nas do końca zarejestruje. 
 
-Jeżeli ktoś chciałby przystąpić do stowarzyszenia, musi niestety poczekać, aż dostaniemy potwierdzenie informacji, że jesteśmy zarejestrowani w KRS.
+Jeżeli ktoś chciałby przystąpić do stowarzyszenia, musi poczekać, aż dostaniemy potwierdzenie informacji, że jesteśmy zarejestrowani w KRS.
