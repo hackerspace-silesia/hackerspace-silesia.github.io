@@ -22,7 +22,7 @@ title: Hackerspace Silesia
                     <img src="/img/s3.png" alt="Eiffel">
                     <h4>Co nowego w HSie</h4>
                     <ul>
-                    {% for post in site.tags['news'] reversed limit: 5 %}
+                    {% for post in site.tags['news'] limit: 5 %}
                             <li>
                             <a href="{{ post.url }}"><small>{{ post.date | date_to_string }}</small> {{ post.title }}</a>
                             </li>
