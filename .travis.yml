@@ -1,9 +1,10 @@
 language: ruby
+cache: bundler
 env:
   global:
     - secure: "To68tydfRPn6sSudWRa8uh6IHeT0FA3oO2DTLtNbdgo1eAM7k835fC72DIfffgPcweQZZTTn52XMidiUKqrIGWv6hJ/g6ETdzTx1yhpIbIE/S2OoOEyRFk/m1TxyxMHtlunN60NK0RAx7iccYDnLfPhNe3Ea8GKEKuqNszOd9dQ="
 rvm:
-  - 2.1.0
+  - 2.1.1
 script: bundle exec jekyll build
 branches:
   only:
