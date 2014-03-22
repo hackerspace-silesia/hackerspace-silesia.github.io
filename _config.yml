@@ -1,5 +1,5 @@
 name: Hackerspace Silesia
-baseurl: "http://silesia.hackerspace.pl"
+url: "http://silesia.hackerspace.pl"
 pygments: true
 exclude: [
   'README.md', 'CNAME',

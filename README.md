@@ -5,7 +5,7 @@ Install it using https://rvm.io/ or https://github.com/sstephenson/rbenv or just
 
 ```
 bundle install
-jekyll serve --watch --baseurl=""
+jekyll serve --watch
 ```
 
 After bundle you can run Guard in separated console:
