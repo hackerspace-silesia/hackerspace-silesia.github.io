@@ -20,3 +20,5 @@ That's it.
 More to read about jekyll: http://jekyllrb.com/
 
 To deploy your changes, just push commit to github master branch, site will be automatically regenerated.
+
+[![Build Status](https://travis-ci.org/hackerspace-silesia/hackerspace-silesia.github.io.svg?branch=jekyll)](https://travis-ci.org/hackerspace-silesia/hackerspace-silesia.github.io)
