@@ -1,5 +1,11 @@
 _site
 .bundle
+
+# Vagrant files
 .vagrant
 Vagrantfile
 *.swp
+
+# IDE project files
+*.sublime-project
+*.sublime-workspace
