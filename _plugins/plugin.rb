@@ -1,6 +1,13 @@
 #require "version.rb"
 
 module Jekyll
+  @parsedlangs = {}
+  def self.langs
+    @parsedlangs
+  end
+  def self.setlangs(l)
+    @parsedlangs = l
+  end
   class Site
     alias :process_org :process
     def process
@@ -16,24 +23,25 @@ module Jekyll
       #Loop
       self.config['lang'] = languages.first
       puts
-      puts "Building site for default language: \"#{self.config['lang']}\" to: " + self.dest
+      puts "Building site for default language: \"#{self.config['lang']}\" to: #{self.dest}"
       process_org
       languages.drop(1).each do |lang|
 
         # Build site for language lang
         self.dest = self.dest + "/" + lang
-        self.config['baseurl'] = self.config['baseurl'] +  lang
+        self.config['baseurl'] = self.config['baseurl'] + "/" + lang
         self.config['lang'] = lang
-        puts "Building site for language: \"#{self.config['lang']}\" to: " + self.dest
+        puts "Building site for language: \"#{self.config['lang']}\" to: #{self.dest}"
         process_org
 
         #Reset variables for next language
         self.dest = dest_org
         self.config['baseurl'] = baseurl_org
       end
+      Jekyll.setlangs({})
       puts 'Build complete'
     end
-    
+
     alias :read_posts_org :read_posts
     def read_posts(dir)
       if dir == ''
@@ -58,21 +66,16 @@ module Jekyll
         key = @key
       end
       lang = context.registers[:site].config['lang']
-      candidate = YAML.load_file(context.registers[:site].source + "/_i18n/#{lang}.yml")
-      path = key.split(/\./) if key.is_a?(String)
-      while !path.empty?
-        key = path.shift
-        if candidate[key]
-          candidate = candidate[key]
-        else
-          candidate = ""
-        end
+      unless Jekyll.langs.has_key?(lang)
+        puts "Loading translation from file #{context.registers[:site].source}/_i18n/#{lang}.yml"
+        Jekyll.langs[lang] = YAML.load_file("#{context.registers[:site].source}/_i18n/#{lang}.yml")
       end
-      if candidate == ""
-        puts "Missing i18n key: " + lang + ":" + key
-        "*" + lang + ":" + key + "*"
+      translation = Jekyll.langs[lang].access(key) if key.is_a?(String)
+      if translation.nil? or translation.empty?
+        puts "Missing i18n key: #{lang}:#{key}"
+        "*#{lang}:#{key}*"
       else
-        candidate
+        translation
       end
     end
   end
@@ -117,6 +120,23 @@ module Jekyll
           end
         end
       end
+    end
+  end
+end
+
+unless Hash.method_defined? :access
+  class Hash
+    def access(path)
+      ret = self
+      path.split('.').each do |p|
+        if p.to_i.to_s == p
+          ret = ret[p.to_i]
+        else
+          ret = ret[p.to_s] || ret[p.to_sym]
+        end
+        break unless ret
+      end
+      ret
     end
   end
 end
