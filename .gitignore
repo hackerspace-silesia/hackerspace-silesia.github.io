@@ -1,4 +1,7 @@
+# Generated pages
 _site
+
+# Ruby bundles
 .bundle
 
 # Vagrant files
