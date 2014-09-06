@@ -1,15 +1,22 @@
 name: Hackerspace Silesia
 url: "http://silesia.hackerspace.pl"
+
 highlighter: 'pygments'
+
 exclude: [
-  'README.md', 'CNAME',
-  'Gemfile', 'Gemfile.lock',
-  'Guardfile', 'vendor'
+  'README.md',
+  'CNAME',
+  'Gemfile',
+  'Gemfile.lock',
+  'Guardfile',
+  'vendor'
 ]
+
 asset_pipeline:
   bundle: true
   compress: true
   output_path: assets
   display_path: nil
   gzip: false
+
 languages: ["pl", "en", "fr"]
