@@ -1,6 +1,6 @@
 name: Hackerspace Silesia
 url: "http://silesia.hackerspace.pl"
-pygments: true
+highlighter: 'pygments'
 exclude: [
   'README.md', 'CNAME',
   'Gemfile', 'Gemfile.lock',
