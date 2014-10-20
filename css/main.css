@@ -549,3 +549,7 @@ a:after {
 #partners {
 	text-align: center;
 }
+
+#partners a:hover {
+	opacity: .7;
+}
