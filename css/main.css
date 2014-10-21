@@ -544,3 +544,13 @@ a:after {
   white-space: nowrap;
   padding: 0 6px;
 }
+
+/* Partners */
+#partners {
+  text-align: center;
+}
+
+#partners a:hover {
+  opacity: .7;
+}
+
