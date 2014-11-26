@@ -7,6 +7,19 @@
     <atom:link href="http://silesia.hackerspace.pl/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>HackPlanszówki</title>
+        <description>&lt;p&gt;W styczniu organizowaliśmy pierwsze HackPlanszówki. Pod koniec roku przyszła pora na kolejne spotkanie. 
+4 grudnia zapraszamy na kolejne HackPlanszówki. Będzie można poznać gry typu Dobble, Munchkin, Potwory w Tokio, Zombiaki, Bang i wiele… wiele innych.&lt;/p&gt;
+
+&lt;p&gt;Start jak zawsze o 18. Adres: Katowicach na Ligonia 7/112
+Mistrzem gier będzie Dominik Socek Długajczyk&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Dec 2014 00:00:00 +0000</pubDate>
+        <link>http://silesia.hackerspace.pl/_i18n/pl/2014/12/04/HackPlansz%C3%B3wki-%232.html</link>
+        <guid isPermaLink="true">/_i18n/pl/2014/12/04/HackPlansz%C3%B3wki-%232.html</guid>
+      </item>
+    
+      <item>
         <title>Malinowy dżemik</title>
         <description>&lt;p&gt;Dnia 23 października odbędzie się kolejne spotkanie miłośników Raspberry Pi.
 Wszystkich zainteresowanych serdecznie zapraszamy.&lt;/p&gt;
@@ -157,17 +170,6 @@ Dla zainteresowanych statut stowarzyszenia dostępny jest na &lt;a href=&quot;ht
         <pubDate>Wed, 26 Feb 2014 00:00:00 +0000</pubDate>
         <link>http://silesia.hackerspace.pl/_i18n/pl/2014/02/26/lokal-na-kulture-podsumowanie.html</link>
         <guid isPermaLink="true">/_i18n/pl/2014/02/26/lokal-na-kulture-podsumowanie.html</guid>
-      </item>
-    
-      <item>
-        <title>Spotkanie założycielskie</title>
-        <description>&lt;p&gt;Dnia 20.02.2014 odbędzie się spotkanie założycielskie Stowarzyszenia Hackerspace Silesia. Celem tego spotkania jest powstanie stowarzyszenia, które będzie starało się pozyskać lokal dla społeczności Hackerspace’a.&lt;/p&gt;
-
-&lt;p&gt;Jeżeli ta sprawa jest dla Ciebie ważna to prosimy o przybycie i przeczytanie &lt;a href=&quot;https://lists.hackerspace.pl/pipermail/silesia/2014-February/000202.html&quot;&gt;tego emaila z mailisty&lt;/a&gt; oraz wpisanie swojej obecności &lt;a href=&quot;http://pad.nowoczesnapolska.org.pl/p/hackerspace-silesia-stowarzyszenie&quot;&gt;na padzie&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Feb 2014 00:00:00 +0000</pubDate>
-        <link>http://silesia.hackerspace.pl/_i18n/pl/2014/02/20/spotkanie-zalozycielskie.html</link>
-        <guid isPermaLink="true">/_i18n/pl/2014/02/20/spotkanie-zalozycielskie.html</guid>
       </item>
     
   </channel>
