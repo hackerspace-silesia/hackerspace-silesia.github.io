@@ -7,6 +7,21 @@
     <atom:link href="http://silesia.hackerspace.pl/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Malinowy dżemik</title>
+        <description>&lt;p&gt;Dnia 18 grudnia odbędzie się kolejne spotkanie miłośników Raspberry Pi.&lt;/p&gt;
+
+&lt;p&gt;Tym razem głównym tematem będą silniki serwo i kamera.&lt;/p&gt;
+
+&lt;p&gt;Poza tym oczywiście będzie można kontynuować temat sterowania samochodzików, a jak ktoś dopiero zaczyna przygodę z Raspberry Pi to będzie mógł poznać podstawy obsługi tego mikro komputera.&lt;/p&gt;
+
+&lt;p&gt;Szczegóły i zapisy na stronie MeetUp: http://www.meetup.com/silesia-malinowy-dzemik/events/219024802/&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Dec 2014 00:00:00 +0000</pubDate>
+        <link>http://silesia.hackerspace.pl/_i18n/pl/2014/12/18/malinowy-dzemik.html</link>
+        <guid isPermaLink="true">/_i18n/pl/2014/12/18/malinowy-dzemik.html</guid>
+      </item>
+    
+      <item>
         <title>HackPlanszówki</title>
         <description>&lt;p&gt;W styczniu organizowaliśmy pierwsze HackPlanszówki. Pod koniec roku przyszła pora na kolejne spotkanie. 
 4 grudnia zapraszamy na kolejne HackPlanszówki. Będzie można poznać gry typu Dobble, Munchkin, Potwory w Tokio, Zombiaki, Bang i wiele… wiele innych.&lt;/p&gt;
@@ -157,19 +172,6 @@ Dla zainteresowanych statut stowarzyszenia dostępny jest na &lt;a href=&quot;ht
         <pubDate>Wed, 26 Feb 2014 00:00:00 +0000</pubDate>
         <link>http://silesia.hackerspace.pl/_i18n/pl/2014/02/26/zakladanie-stowarzyszenia-podsumowanie.html</link>
         <guid isPermaLink="true">/_i18n/pl/2014/02/26/zakladanie-stowarzyszenia-podsumowanie.html</guid>
-      </item>
-    
-      <item>
-        <title>Lokal na kulturę - status (won&#39;t fix)</title>
-        <description>&lt;p&gt;Niestety nie udało się złożyć wniosku na “Lokal na kulturę”. Mamy jednak nadzieję wykorzystać możliwość pozyskania lokalu z lokali poza przetargiem lub spróbować sił w kolejnej edycji “Lokal na kulturę”. &lt;/p&gt;
-
-&lt;p&gt;Najpierw jednak poczekajmy, aż sąd nas do końca zarejestruje. &lt;/p&gt;
-
-&lt;p&gt;Jeżeli ktoś chciałby przystąpić do stowarzyszenia, musi poczekać, aż dostaniemy potwierdzenie informacji, że jesteśmy zarejestrowani w KRS.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 26 Feb 2014 00:00:00 +0000</pubDate>
-        <link>http://silesia.hackerspace.pl/_i18n/pl/2014/02/26/lokal-na-kulture-podsumowanie.html</link>
-        <guid isPermaLink="true">/_i18n/pl/2014/02/26/lokal-na-kulture-podsumowanie.html</guid>
       </item>
     
   </channel>
