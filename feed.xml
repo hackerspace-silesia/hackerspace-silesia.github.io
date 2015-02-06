@@ -7,6 +7,27 @@
     <atom:link href="http://silesia.hackerspace.pl/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Spotkanie Meet.js Katowice</title>
+        <description>&lt;p&gt;Serdecznie zapraszamy na pierwsze spotkanie meet.js Katowice w 2015 roku, które odbędzie się w przyszłą środę (11.02) o godzinie 18:00 w klubie Inwersja.&lt;/p&gt;
+
+&lt;p&gt;Prezentacje:
+Wojtek Gawroński - “Wprowadzenie do ClojureScript oraz Om”
+Jakub Elżbieciak - “Amazon Lambda - JavaScript w chmurze na milisekundy”&lt;/p&gt;
+
+&lt;p&gt;Chętnych do wygłoszenia prezentacji lub lightning talków jak zwykle prosimy o kontakt z &lt;a href=&quot;https://www.facebook.com/galuszkak&quot;&gt;Kamil Gałuszka&lt;/a&gt; lub &lt;a href=&quot;https://www.facebook.com/szimek&quot;&gt;Szymon Nowak&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Wśród uczestników rozlosujemy także licencję na WebStorm IDE ufundowaną przez &lt;a href=&quot;https://www.facebook.com/JetBrains&quot;&gt;JetBrains&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Serdecznie zapraszamy!&lt;/p&gt;
+
+&lt;p&gt;Start: 11.02.2015 o godzinie 18:00. Adres: &lt;a href=&quot;https://www.facebook.com/klubinwersja&quot;&gt;Klub Inwersja&lt;/a&gt; ul. Gliwicka 10, 40-079 Katowice&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
+        <link>http://silesia.hackerspace.pl/_i18n/pl/2015/02/06/MeetjsKatowiceLuty.html</link>
+        <guid isPermaLink="true">/_i18n/pl/2015/02/06/MeetjsKatowiceLuty.html</guid>
+      </item>
+    
+      <item>
         <title>Malinowy dżemik</title>
         <description>&lt;p&gt;Dnia 18 grudnia odbędzie się kolejne spotkanie miłośników Raspberry Pi.&lt;/p&gt;
 
@@ -127,25 +148,6 @@ Wszystkich zainteresowanych serdecznie zapraszamy.&lt;/p&gt;
         <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
         <link>http://silesia.hackerspace.pl/_i18n/pl/2014/03/20/czego-agile-nie-mowi.html</link>
         <guid isPermaLink="true">/_i18n/pl/2014/03/20/czego-agile-nie-mowi.html</guid>
-      </item>
-    
-      <item>
-        <title>Spotkanie Software Craftmanship Silesia. Lean Coffe</title>
-        <description>&lt;p&gt;Serdecznie zapraszamy na spotkanie Software Craftsmanship Silesia, które odbędzie się 17.03.2014 o godzinie 18:00 w Hackerspace Silesia.&lt;/p&gt;
-
-&lt;p&gt;Spotkanie odbędzię się w formie Lean Coffee. Na stronie http://leancoffee.org/ możecie sprawdzić na czym ono polega.&lt;/p&gt;
-
-&lt;p&gt;W skrócie jest to uporządkowane spotkanie bez wcześniej określonej agendy. Tematy dyskusji są wybierane demokratycznie.&lt;/p&gt;
-
-&lt;p&gt;Na początku odpowiadamy na dwa pytania:
-- czego chciałbym się nauczyć
-- o czym mogę opowiedzieć&lt;/p&gt;
-
-&lt;p&gt;Następnie głosujemy nad kolejnością tematów i rozpoczynamy dyskusje. Każdy temat ma swój limit czasowy. Po 15 minutach decydujemy czy kontynuujemy dany wątek czy przechodzimy do kolejnego.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 17 Mar 2014 00:00:00 +0000</pubDate>
-        <link>http://silesia.hackerspace.pl/_i18n/pl/2014/03/17/software-craftmanship-silesia.html</link>
-        <guid isPermaLink="true">/_i18n/pl/2014/03/17/software-craftmanship-silesia.html</guid>
       </item>
     
   </channel>
